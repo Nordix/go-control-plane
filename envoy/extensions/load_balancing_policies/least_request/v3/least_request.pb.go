@@ -8,8 +8,8 @@ package least_requestv3
 
 import (
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	v31 "github.com/envoyproxy/go-control-plane/envoy/config/cluster/v3"
-	v3 "github.com/envoyproxy/go-control-plane/envoy/config/core/v3"
+	v31 "github.com/Nordix/go-control-plane/envoy/config/cluster/v3"
+	v3 "github.com/Nordix/go-control-plane/envoy/config/core/v3"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	wrappers "github.com/golang/protobuf/ptypes/wrappers"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"

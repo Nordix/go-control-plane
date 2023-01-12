@@ -15,6 +15,7 @@ linters:
   - unconvert
   - unparam
 
+
   disable:
   - scopelint # deprecated but still enabled in the bugs preset
 
@@ -26,7 +27,7 @@ linters-settings:
   unparam:
     check-exported: false
   goimports:
-    local-prefixes: github.com/envoyproxy/go-control-plane
+    local-prefixes: github.com/Nordix/go-control-plane
   exhaustive:
     default-signifies-exhaustive: true
 

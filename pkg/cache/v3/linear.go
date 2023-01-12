@@ -22,9 +22,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/envoyproxy/go-control-plane/pkg/cache/types"
-	"github.com/envoyproxy/go-control-plane/pkg/log"
-	"github.com/envoyproxy/go-control-plane/pkg/server/stream/v3"
+	"github.com/Nordix/go-control-plane/pkg/cache/types"
+	"github.com/Nordix/go-control-plane/pkg/log"
+	"github.com/Nordix/go-control-plane/pkg/server/stream/v3"
 )
 
 type watches = map[chan Response]struct{}

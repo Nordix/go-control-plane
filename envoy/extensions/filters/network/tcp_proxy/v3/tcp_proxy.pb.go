@@ -8,9 +8,9 @@ package tcp_proxyv3
 
 import (
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	v31 "github.com/envoyproxy/go-control-plane/envoy/config/accesslog/v3"
-	v3 "github.com/envoyproxy/go-control-plane/envoy/config/core/v3"
-	v32 "github.com/envoyproxy/go-control-plane/envoy/type/v3"
+	v31 "github.com/Nordix/go-control-plane/envoy/config/accesslog/v3"
+	v3 "github.com/Nordix/go-control-plane/envoy/config/core/v3"
+	v32 "github.com/Nordix/go-control-plane/envoy/type/v3"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	duration "github.com/golang/protobuf/ptypes/duration"
 	wrappers "github.com/golang/protobuf/ptypes/wrappers"

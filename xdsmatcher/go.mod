@@ -1,4 +1,4 @@
-module github.com/envoyproxy/go-control-plane/xdsmatcher
+module github.com/Nordix/go-control-plane/xdsmatcher
 
 go 1.15
 

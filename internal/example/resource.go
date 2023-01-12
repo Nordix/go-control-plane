@@ -19,16 +19,16 @@ import (
 	"google.golang.org/protobuf/types/known/anypb"
 	"google.golang.org/protobuf/types/known/durationpb"
 
-	cluster "github.com/envoyproxy/go-control-plane/envoy/config/cluster/v3"
-	core "github.com/envoyproxy/go-control-plane/envoy/config/core/v3"
-	endpoint "github.com/envoyproxy/go-control-plane/envoy/config/endpoint/v3"
-	listener "github.com/envoyproxy/go-control-plane/envoy/config/listener/v3"
-	route "github.com/envoyproxy/go-control-plane/envoy/config/route/v3"
-	hcm "github.com/envoyproxy/go-control-plane/envoy/extensions/filters/network/http_connection_manager/v3"
-	"github.com/envoyproxy/go-control-plane/pkg/cache/types"
-	"github.com/envoyproxy/go-control-plane/pkg/cache/v3"
-	"github.com/envoyproxy/go-control-plane/pkg/resource/v3"
-	"github.com/envoyproxy/go-control-plane/pkg/wellknown"
+	cluster "github.com/Nordix/go-control-plane/envoy/config/cluster/v3"
+	core "github.com/Nordix/go-control-plane/envoy/config/core/v3"
+	endpoint "github.com/Nordix/go-control-plane/envoy/config/endpoint/v3"
+	listener "github.com/Nordix/go-control-plane/envoy/config/listener/v3"
+	route "github.com/Nordix/go-control-plane/envoy/config/route/v3"
+	hcm "github.com/Nordix/go-control-plane/envoy/extensions/filters/network/http_connection_manager/v3"
+	"github.com/Nordix/go-control-plane/pkg/cache/types"
+	"github.com/Nordix/go-control-plane/pkg/cache/v3"
+	"github.com/Nordix/go-control-plane/pkg/resource/v3"
+	"github.com/Nordix/go-control-plane/pkg/wellknown"
 )
 
 const (

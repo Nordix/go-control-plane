@@ -11,12 +11,12 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	discovery "github.com/envoyproxy/go-control-plane/envoy/service/discovery/v3"
-	"github.com/envoyproxy/go-control-plane/pkg/cache/types"
-	"github.com/envoyproxy/go-control-plane/pkg/cache/v3"
-	rsrc "github.com/envoyproxy/go-control-plane/pkg/resource/v3"
-	"github.com/envoyproxy/go-control-plane/pkg/server/stream/v3"
-	"github.com/envoyproxy/go-control-plane/pkg/server/v3"
+	discovery "github.com/Nordix/go-control-plane/envoy/service/discovery/v3"
+	"github.com/Nordix/go-control-plane/pkg/cache/types"
+	"github.com/Nordix/go-control-plane/pkg/cache/v3"
+	rsrc "github.com/Nordix/go-control-plane/pkg/resource/v3"
+	"github.com/Nordix/go-control-plane/pkg/server/stream/v3"
+	"github.com/Nordix/go-control-plane/pkg/server/v3"
 )
 
 func (config *mockConfigWatcher) CreateDeltaWatch(req *discovery.DeltaDiscoveryRequest, state stream.StreamState, out chan cache.DeltaResponse) func() {

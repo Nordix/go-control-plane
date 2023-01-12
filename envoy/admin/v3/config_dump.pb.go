@@ -8,7 +8,7 @@ package adminv3
 
 import (
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	v3 "github.com/envoyproxy/go-control-plane/envoy/config/bootstrap/v3"
+	v3 "github.com/Nordix/go-control-plane/envoy/config/bootstrap/v3"
 	any "github.com/golang/protobuf/ptypes/any"
 	timestamp "github.com/golang/protobuf/ptypes/timestamp"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"

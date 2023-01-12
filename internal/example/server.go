@@ -23,14 +23,14 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/keepalive"
 
-	clusterservice "github.com/envoyproxy/go-control-plane/envoy/service/cluster/v3"
-	discoverygrpc "github.com/envoyproxy/go-control-plane/envoy/service/discovery/v3"
-	endpointservice "github.com/envoyproxy/go-control-plane/envoy/service/endpoint/v3"
-	listenerservice "github.com/envoyproxy/go-control-plane/envoy/service/listener/v3"
-	routeservice "github.com/envoyproxy/go-control-plane/envoy/service/route/v3"
-	runtimeservice "github.com/envoyproxy/go-control-plane/envoy/service/runtime/v3"
-	secretservice "github.com/envoyproxy/go-control-plane/envoy/service/secret/v3"
-	"github.com/envoyproxy/go-control-plane/pkg/server/v3"
+	clusterservice "github.com/Nordix/go-control-plane/envoy/service/cluster/v3"
+	discoverygrpc "github.com/Nordix/go-control-plane/envoy/service/discovery/v3"
+	endpointservice "github.com/Nordix/go-control-plane/envoy/service/endpoint/v3"
+	listenerservice "github.com/Nordix/go-control-plane/envoy/service/listener/v3"
+	routeservice "github.com/Nordix/go-control-plane/envoy/service/route/v3"
+	runtimeservice "github.com/Nordix/go-control-plane/envoy/service/runtime/v3"
+	secretservice "github.com/Nordix/go-control-plane/envoy/service/secret/v3"
+	"github.com/Nordix/go-control-plane/pkg/server/v3"
 )
 
 const (

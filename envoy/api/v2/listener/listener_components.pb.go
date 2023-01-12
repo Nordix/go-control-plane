@@ -8,9 +8,9 @@ package listener
 
 import (
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	auth "github.com/envoyproxy/go-control-plane/envoy/api/v2/auth"
-	core "github.com/envoyproxy/go-control-plane/envoy/api/v2/core"
-	_type "github.com/envoyproxy/go-control-plane/envoy/type"
+	auth "github.com/Nordix/go-control-plane/envoy/api/v2/auth"
+	core "github.com/Nordix/go-control-plane/envoy/api/v2/core"
+	_type "github.com/Nordix/go-control-plane/envoy/type"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	any "github.com/golang/protobuf/ptypes/any"
 	_struct "github.com/golang/protobuf/ptypes/struct"

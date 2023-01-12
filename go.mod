@@ -1,4 +1,4 @@
-module github.com/envoyproxy/go-control-plane
+module github.com/Nordix/go-control-plane
 
 go 1.16
 

@@ -20,12 +20,12 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	cluster "github.com/envoyproxy/go-control-plane/envoy/config/cluster/v3"
-	route "github.com/envoyproxy/go-control-plane/envoy/config/route/v3"
-	"github.com/envoyproxy/go-control-plane/pkg/cache/types"
-	"github.com/envoyproxy/go-control-plane/pkg/cache/v3"
-	rsrc "github.com/envoyproxy/go-control-plane/pkg/resource/v3"
-	"github.com/envoyproxy/go-control-plane/pkg/test/resource/v3"
+	cluster "github.com/Nordix/go-control-plane/envoy/config/cluster/v3"
+	route "github.com/Nordix/go-control-plane/envoy/config/route/v3"
+	"github.com/Nordix/go-control-plane/pkg/cache/types"
+	"github.com/Nordix/go-control-plane/pkg/cache/v3"
+	rsrc "github.com/Nordix/go-control-plane/pkg/resource/v3"
+	"github.com/Nordix/go-control-plane/pkg/test/resource/v3"
 )
 
 const (

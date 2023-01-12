@@ -8,8 +8,8 @@ package metricsv2
 
 import (
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	core "github.com/envoyproxy/go-control-plane/envoy/api/v2/core"
-	matcher "github.com/envoyproxy/go-control-plane/envoy/type/matcher"
+	core "github.com/Nordix/go-control-plane/envoy/api/v2/core"
+	matcher "github.com/Nordix/go-control-plane/envoy/type/matcher"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	any "github.com/golang/protobuf/ptypes/any"
 	_struct "github.com/golang/protobuf/ptypes/struct"

@@ -8,7 +8,7 @@ package mutation_rulesv3
 
 import (
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	v3 "github.com/envoyproxy/go-control-plane/envoy/type/matcher/v3"
+	v3 "github.com/Nordix/go-control-plane/envoy/type/matcher/v3"
 	wrappers "github.com/golang/protobuf/ptypes/wrappers"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"

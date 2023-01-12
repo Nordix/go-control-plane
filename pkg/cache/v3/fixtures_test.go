@@ -1,9 +1,9 @@
 package cache_test
 
 import (
-	"github.com/envoyproxy/go-control-plane/pkg/cache/types"
-	"github.com/envoyproxy/go-control-plane/pkg/cache/v3"
-	rsrc "github.com/envoyproxy/go-control-plane/pkg/resource/v3"
+	"github.com/Nordix/go-control-plane/pkg/cache/types"
+	"github.com/Nordix/go-control-plane/pkg/cache/v3"
+	rsrc "github.com/Nordix/go-control-plane/pkg/resource/v3"
 )
 
 var fixture = &fixtureGenerator{
